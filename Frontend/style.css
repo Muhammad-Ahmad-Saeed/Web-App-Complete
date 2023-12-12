@@ -1,0 +1,187 @@
+body {
+    font-family: "Poppins", sans-serif;
+  }
+  table {
+    caption-side: unset;
+    border-collapse: unset;
+  }
+  #title {
+    display: flex;
+    justify-content: space-around;
+    column-gap: 650px;
+  }
+  #tab {
+    width: 59%;
+    height: fit-content;
+  }
+  #mtable {
+    width: 78%;
+  }
+  #mtable2 {
+    width: 90.5%;
+  }
+  .heading1 {
+    width: 15%;
+    border: solid black;
+    background-color: beige;
+    text-align: start;
+    padding-left: 10px;
+    border-width: 1px;
+    box-shadow: 0px 5px black;
+  }
+  .heading2 {
+    width: 285px;
+    border: solid black;
+    background-color: beige;
+    text-align: start;
+    padding-left: 10px;
+    border-width: 1px;
+    box-shadow: 0px 5px black;
+  }
+  .data1 {
+    width: 20%;
+    background-color: beige;
+    text-align: start;
+    padding-left: 10px;
+  }
+  .data2 {
+    width: 285px;
+    background-color: beige;
+    text-align: start;
+    padding-left: 10px;
+  }
+  
+  #inputs {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    row-gap: 1%;
+  }
+  .input {
+    height: 25px;
+    box-sizing: unset;
+    margin-bottom: 10px;
+  }
+  .input::placeholder {
+    font-family: "Poppins", sans-serif;
+  }
+  input:focus {
+    outline: none;
+    border: solid black;
+  }
+  .input_m {
+    height: 25px;
+    width: 460px;
+    box-sizing: unset;
+    margin-bottom: 10px;
+  }
+  .input_m::placeholder {
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .modal-header {
+    background-color: #f0f0f0;
+  }
+  
+  /* Used Available Resources */
+  
+  #container {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .button-38 {
+    background-color: #ffffff;
+    border: 0;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+    color: #111827;
+    font-family: "Inter var", ui-sans-serif, system-ui, -apple-system, system-ui,
+      "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+      "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: 1.25rem;
+    padding: 0.75rem 1rem;
+    text-align: center;
+    text-decoration: none #d1d5db solid;
+    text-decoration-thickness: auto;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-38:hover {
+    background-color: rgb(249, 250, 251);
+  }
+  
+  .button-38:focus {
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+  }
+  
+  .button-38:focus-visible {
+    box-shadow: none;
+  }
+  
+  .button-54 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 11px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    cursor: pointer;
+    border: 3px solid;
+    padding: 0.25em 0.5em;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px,
+      5px 5px 0px 0px;
+    position: relative;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-54:active {
+    box-shadow: 0px 0px 0px 0px;
+    top: 5px;
+    left: 5px;
+  }
+  
+  @media (min-width: 768px) {
+    .button-54 {
+      padding: 0.25em 0.75em;
+    }
+  }
+  .button-55 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    cursor: pointer;
+    border: 3px solid;
+    padding: 0.25em 0.5em;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px,
+      5px 5px 0px 0px;
+    position: relative;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin-left: 100px;
+  }
+  
+  .button-55:active {
+    box-shadow: 0px 0px 0px 0px;
+    top: 5px;
+    left: 5px;
+  }
+  
+  @media (min-width: 768px) {
+    .button-55 {
+      padding: 0.25em 0.75em;
+    }
+  }

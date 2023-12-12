@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./jquery-3.7.1.min.js"></script>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="title">
+      <h1>Movie Mania</h1>
+      <div>
+
+        <h1>Add Movie</h1>
+      </div>
+    </div>
+    <div id="container">
+      <div id="tab">
+        <table id="mtable">
+          <tr>
+            <th class="heading1">Title</th>
+            <th class="heading1">Duration</th>
+            <th class="heading1">Cast</th>
+          </tr>
+          <table id="mtable2"></table>
+        </table>
+      </div>
+
+      <div id="inputs">
+        <input type="text" id="Title" placeholder="Title" name="user"class="input"/>
+        <input type="text" id="Duration" placeholder="Duration (mins)" class="input" />
+        <input type="text" id="Cast" placeholder="Cast" class="input" />
+        <button type="submit" id="add" class="button-54">Submit</button>
+      </div>
+    </div>
+    <!-- Button trigger modal -->
+    <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+      Launch demo modal
+    </button> -->
+    
+    <button id="Get" class="button-55">GET</button>
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">New Info</h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div id="inputs">
+              <input
+                type="text"
+                placeholder="First Name"
+                id="Title1"
+                name="user"
+                class="input_m"
+              />
+              <input
+                type="text"
+                id="Duration1"
+                placeholder="Middle Name"
+                class="input_m"
+              />
+              <input
+                type="text"
+                id="Cast1"
+                placeholder="Last Name"
+                class="input_m"
+              />
+            </div>
+            ...
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="button-54"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="button-54" id="Save">
+              Save changes
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </body>
+  <script src="./script.js"></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"
+  ></script>
+</html>
